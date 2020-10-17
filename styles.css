@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    font-size: 24px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+
+
+.logo-full {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-self: center;
+/*     height: 32px; */
+}
+
+#logo-icon {
+    height: 32px;
+    width: auto;
+}
+.text-colmar {
+    text-transform: uppercase;
+    color: gray;
+}
+
+.text-academy {
+    text-transform: uppercase;
+    color: black;
+}
+
