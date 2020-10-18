@@ -7,38 +7,156 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+main, footer {
+    position: relative;
+    top: 64px;
+ 
+ }
+
+/* HEADER */
+
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 64px;
     width: 100%;
     position: fixed;
     background-color: #ffffff;
-    font-size: 24px;
-    border-bottom: 1px solid gray;
-    display: flex;
-    justify-content: space-between;
-    padding: 24px;
+    border-bottom: 1px solid #e4e4e4;
+    z-index: 999;
 }
-
-
 
 .logo-full {
     display: inline-flex;
     justify-content: flex-start;
-    align-self: center;
-/*     height: 32px; */
+    align-items: center;
+    margin-left: 24px;
 }
 
-#logo-icon {
-    height: 32px;
-    width: auto;
+img#logo-icon {
+    height: 48px;
 }
 .text-colmar {
     text-transform: uppercase;
-    color: gray;
+    color: #088873;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .text-academy {
     text-transform: uppercase;
     color: black;
+    font-size: 20px;
 }
 
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+
+.nav-item {
+    padding: 0 10px;
+    color: #3f3f3f;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* MAIN CONTENT */
+div.banner {
+    background-color: #ffffff;
+    display: flex;
+/*     justify-content: space-between; */
+    align-items: flex-start;
+}
+
+img.hero  {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+div.intro-cta {
+    width: 40%;
+    height: 100%;
+
+   
+    align-self: center;
+}
+
+.intro-cta h1, h3 {
+    font-weight: 400;
+    text-align: left;
+    width: 400px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.button-primary {
+    width: 120px;
+    color: white;
+    border-radius: 2px;
+    background-color: #088873;
+    padding: 12px 40px;
+    text-align: center;
+}
+
+/* Banner Secondary */
+
+
+
+.banner .vertical {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img.large {
+    width: 100%;
+    padding: 0 24px 24px 24px;
+}
+
+.vertical .content {
+    width: 100%;
+    padding: 0 24px;
+}
+
+.banner .caption {
+    margin-top: 24px;
+}
+
+/* Horizontal Cards */
+
+div.cards {
+    width: 40%;
+    display: flex;
+    justify-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 24px;
+}
+
+div.horizontal {
+    width: 100%;
+    padding: 0 0 16px 0;
+}
+
+.horizontal {
+    display: flex;
+    justify-items: flex-start;
+ 
+}
+
+img.small {
+    width: 35%;
+    margin: 0 24px;;
+
+}
+
+div.content {
+    width: 65%;
+    align-self: center;
+}
